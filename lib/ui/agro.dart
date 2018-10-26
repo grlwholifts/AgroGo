@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../ui/chat.dart';
+import 'analysis.dart';
 
 class Agro extends StatefulWidget {
   @override
@@ -65,7 +66,12 @@ class _AgroState extends State<Agro> {
                         child: new CircleAvatar(
                           radius: 60.0,
                           child: new FlatButton(
-                              onPressed: null,
+                              onPressed: () {
+                                var rout = new MaterialPageRoute(builder: (BuildContext context) {
+                                  return new analysis();
+                                });
+                                Navigator.of(context).push(rout);
+                              } ,
                               child: new Text(
                                 'START ANALYSIS',
                                 textAlign: TextAlign.center,
