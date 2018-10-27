@@ -22,11 +22,14 @@ dependencies:
   firebase_auth:
   firebase_core:
   firebase_database:
+  http:
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   url_launcher:
+  intl:
+  location:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
@@ -41,8 +44,29 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-   - images/field.jpg
-  #  - images/a_dot_ham.jpeg
+   - images/clouds.jpg
+   - images/bg.jpg
+   - images/fields.jpg
+   - images/bajra.jpg
+   - images/barley.jpg
+   - images/chilli.jpg
+   - images/ginger.jpg
+   - images/gram.jpg
+   - images/groundnut.png
+   - images/jowar.jpg
+   - images/maize.jpg
+   - images/moong.jpg
+   - images/mustard.jpg
+   - images/off season vegetables.jpg
+   - images/oilseeds.jpeg
+   - images/pulses.jpg
+   - images/ragi.jpg
+   - images/red gram.jpg
+   - images/tur.jpg
+   - images/urad.jpg
+   - images/wheat.jpg
+
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.

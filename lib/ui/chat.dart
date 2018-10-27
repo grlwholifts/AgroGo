@@ -28,8 +28,8 @@ class _chatState extends State<chat> {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text('AgroGo'),
-        backgroundColor: Colors.green.shade800,
+        title: new Text('Community Board'),
+        backgroundColor: Colors.yellow.shade700,
       ),
 
       body: Column(
@@ -62,7 +62,7 @@ class _chatState extends State<chat> {
                     onPressed: () {
                       handleSubmit();
                     },
-                    color: Colors.green.shade800,
+                    color: Colors.yellow.shade700,
                   )
                 ],
               ),
