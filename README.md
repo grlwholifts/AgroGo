@@ -1,7 +1,5 @@
 # AgroGo
 
-This app helps the farmers to convert from a food crop to a commercial crop by providing a full fledged cost and risk analysis.
-
 With this project we aim to cater to the problem of exchange of crops between food and commercial for farmers in the country.
 
 ## Basic features
